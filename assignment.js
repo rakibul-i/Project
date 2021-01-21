@@ -1,6 +1,6 @@
 
 
-            // first problem Kilometer to meter starts //
+// first problem Kilometer to meter starts //
 
 function KilometerToMeter(Kilometer){
     var meter = Kilometer * 1000;
@@ -9,9 +9,9 @@ function KilometerToMeter(Kilometer){
 var dhakaToChottogram = KilometerToMeter(120);
 console.log("Dhaka to chottogram : ",dhakaToChottogram," meter" )
 
-            // first problem Kilometer to meter ends //
+// first problem Kilometer to meter ends //
 
-            // Second problem budgeCalculator starts //
+// Second problem budgeCalculator starts //
 
 function budgeCalculator(watch,phone,laptop){
     var buyingWatch = watch * 50;
@@ -23,9 +23,9 @@ function budgeCalculator(watch,phone,laptop){
 var total = budgeCalculator(5,3,2);
 console.log("My Total budge :", total, " USD")
 
-            // Second problem budgeCalculator ends //
+// Second problem budgeCalculator ends //
 
-            // Third problem hotelCost starts //
+// Third problem hotelCost starts //
 
 function hotelCost(days){
     var cost = 0;
@@ -50,9 +50,9 @@ function hotelCost(days){
 var totalCost = hotelCost(25);
 console.log("My total costs : ",totalCost, " USD")
 
-            // Third problem hotelCost ends //
+// Third problem hotelCost ends //
 
-            // Fourth problem megaFriend starts //
+// Fourth problem megaFriend starts //
 
 function megaFriend(names) {
     var longestName = "";
@@ -69,4 +69,4 @@ var friends = [ "mehedi", "zubaer", "Nahid", "faisal", "arman", "abdullah"];
 var longestName = megaFriend(friends);
 console.log("The longest Name among my friends is : ",longestName);
 
-            // Fourth problem megaFriend ends //
+// Fourth problem megaFriend ends //
